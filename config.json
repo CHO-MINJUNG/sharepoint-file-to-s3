@@ -1,0 +1,13 @@
+{
+    "share_point": 
+        {
+            "url": "https://fnf365-my.sharepoint.com",
+            "site": "https://fnf365-my.sharepoint.com/personal/alswjd4206_fnfcorp_com",
+            "folder_dir": "Documents/thisFolder"
+        },
+
+    "aws_bucket": 
+        {
+            "folder": "new/"
+        }
+}
