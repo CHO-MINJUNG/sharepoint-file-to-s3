@@ -1,13 +1,14 @@
 {
     "share_point": 
         {
-            "url": "https://fnf365-my.sharepoint.com",
-            "site": "https://fnf365-my.sharepoint.com/personal/alswjd4206_fnfcorp_com",
-            "folder_dir": "Documents/thisFolder"
+            "url": "https://fnf365.sharepoint.com",
+            "site": "https://fnf365.sharepoint.com/sites/PRCSMLBProcessTeam",
+            "folder_dir": "Shared%20Documents/데이터파트/해외매출"
         },
 
     "aws_bucket": 
         {
-            "folder": "new/"
+            "folder": "",
+            "bucket_subfolder": "temp_sharepoint_test/new/"
         }
 }
