@@ -1,9 +1,6 @@
 import os, json
 import boto3
 import shutil
-import pandas as pd
-import openpyxl
-import win32com.client
 
 ## 환경 설정
 # read json file
@@ -30,8 +27,8 @@ def save_file(file_dir_path, file_obj):
     with open(file_dir_path, 'wb') as f:  
         f.write(file_obj)
         f.close()
-    data = pd.read_excel(file_dir_path, sheet_name='raw data')
-    data.to_excel(excel_writer="new_folder/rawdata.xlsx", sheet_name='raw data')
+    # data = pd.read_excel(file_dir_path, sheet_name='raw data')
+    # data.to_excel(excel_writer="new_folder/rawdata.xlsx", sheet_name='raw data')
     # excel_file = openpyxl.load_workbook(file_dir_path)
     # for sheet_name in excel_file.get_sheet_names():
     #     new_excel = openpyxl.Workbook()

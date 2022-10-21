@@ -2,13 +2,12 @@
     "share_point": 
         {
             "url": "https://fnf365.sharepoint.com",
-            "site": "https://fnf365.sharepoint.com/sites/PRCSMLBProcessTeam",
-            "folder_dir": "Shared%20Documents/데이터파트/해외매출"
+            "site": "https://fnf365.sharepoint.com/sites/TeamsQAGroup-PRCSTFT",
+            "folder_dir": "Shared%20Documents/[PRCS] TFT 해외 매출"
         },
 
     "aws_bucket": 
         {
-            "folder": "",
             "bucket_subfolder": "temp_sharepoint_test/new/"
         }
 }
