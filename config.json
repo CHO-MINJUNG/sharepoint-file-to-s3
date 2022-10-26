@@ -1,13 +1,14 @@
 {
+    "folder_name": ["MY", "VN", "SG", "ID", "KH", "TH", "PH"],
     "share_point": 
         {
             "url": "https://fnf365.sharepoint.com",
             "site": "https://fnf365.sharepoint.com/sites/TeamsQAGroup-PRCSTFT",
-            "folder_dir": "Shared%20Documents/[PRCS] TFT 해외 매출"
+            "folder_dir": "Shared%20Documents/[PRCS] TFT 해외 매출/"
         },
 
     "aws_bucket": 
         {
-            "bucket_subfolder": "temp_sharepoint_test/new/"
+            "bucket_subfolder": "sharepoint/mlb_gvl_sale/"
         }
 }

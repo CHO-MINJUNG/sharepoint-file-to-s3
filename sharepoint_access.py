@@ -21,14 +21,13 @@ with open(static_config_path, encoding='UTF8') as static_config_file:
 USERNAME = static_config['user']
 PASSWORD = static_config['password']
 
-def sharepoint_access():
+def sharepoint_access(folder_name):
     # 환경설정
     sharepoint_url = config['url']
     sharepoint_site = config['site']
-    folder_dir = config['folder_dir']
+    folder_dir = config['folder_dir']+folder_name
     # sharepoint 폴더 접근
     authcookie = Office365(sharepoint_url, username=USERNAME, password=PASSWORD).GetCookies()
     site = Site(sharepoint_site, version=Version.v365, authcookie=authcookie)
     folder = site.Folder(folder_dir)
-    print(folder)
     return folder
